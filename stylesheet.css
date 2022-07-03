@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -32,12 +32,12 @@ main {
 
 .mega-container2 {
     width: 8%;
-    background-color:forestgreen;
+    background-color: forestgreen;
 }
 
 .mega-container3 {
     width: 46%;
-    background-color:deepskyblue;
+    background-color: deepskyblue;
 }
 
 
@@ -49,8 +49,8 @@ main {
     align-items: stretch;
 }
 
-.mini-container1 > section {
-    width:calc(100%/3);
+.mini-container1>section {
+    width: calc(100%/3);
 }
 
 .item11 {
@@ -58,16 +58,16 @@ main {
 }
 
 .item12 {
-    background-color:aqua;
+    background-color: aqua;
 }
 
 .item13 {
-    background-color:chocolate;
+    background-color: chocolate;
 }
 
 .mini-container2 {
     height: 35%;
-    background-color:blueviolet;
+    background-color: blueviolet;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -77,12 +77,12 @@ main {
 .item21 {
     width: 240px;
     height: 140px;
-    background-color:aliceblue;
+    background-color: aliceblue;
 }
 
 .mini-container3 {
     height: 30%;
-    background-color:darkcyan;
+    background-color: darkcyan;
 }
 
 .mini-container3 {
@@ -91,17 +91,74 @@ main {
 
 .item31 {
     border: 0px solid #000;
-    background-color:white;
-    width:100%;
-    height:100%;
+    background-color: white;
+    width: 100%;
+    height: 100%;
 
 }
 
+.mini-container21 {
+    width: 100%;
+    height: 50%;
+    background-color: gold;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 55px;
+    padding: 30px
+}
 
+.item41 {
+    width: 80px;
+    height: 80px;
+    background-color: darkred;
+}
+
+.container41 {
+    width: 100%;
+    height: 50%;
+}
+
+.mini-container31 {
+    width: 100%;
+    height:50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.item51 {
+    width: 50%;
+    background-color: darkred;
+}
+
+.item61 {
+    width: 50%;
+    background-color: chartreuse;
+}
+
+.mini-container41 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.item71 {
+    width: 50%;
+    background-color: lightcoral;
+}
+
+.item81 {
+    width: 50%;
+    background-color: darkblue;
+}
 
 footer {
     width: 100%;
     height: 10%;
-    background-color:goldenrod;
+    background-color: goldenrod;
 }
-
